@@ -1,4 +1,4 @@
-const fetchAllPokemon = () => {
+export const fetchAllPokemon = () => {
   return(
     $.ajax({
       method:"GET",
@@ -9,4 +9,3 @@ const fetchAllPokemon = () => {
 
 
 
-export default fetchAllPokemon
